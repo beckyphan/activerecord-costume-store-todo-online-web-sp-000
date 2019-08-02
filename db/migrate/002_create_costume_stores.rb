@@ -9,8 +9,8 @@ class CostumeStores < ActiveRecord::Migration[4.2]
       t.integer :inventory
       t.integer :employees
       t.boolean :status
-      t.time
-      t.timestamps
+      t.time :open
+      t.time :close
     end
   end 
   
