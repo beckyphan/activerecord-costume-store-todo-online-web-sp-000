@@ -11,7 +11,7 @@ class HauntedHouses < ActiveRecord::Migration[4.2]
       t.binary :family_friendly
       t.date :open
       t.date :close
-      t.string :description
+      t.text :description
     end
   end 
   
